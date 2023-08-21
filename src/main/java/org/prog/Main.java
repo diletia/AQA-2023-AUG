@@ -25,6 +25,11 @@ public class Main {
         gasCar.fuelType = "gas";
         dieselCar.htFuelType = "diesel";
 
+        gasCar.color = "red";
+        dieselCar.color = "green";
+
+        gasCar.PaintCar(gasCar.color);
+
         gasCar.fuelType.equals(dieselCar.htFuelType);
 //        Truck truck = new Truck();
 //        HeavyTruck heavyTruck = new HeavyTruck();
@@ -68,3 +73,4 @@ public class Main {
     }
 
 }
+
