@@ -57,4 +57,11 @@ public class Car implements ICar, IFuleable {
     public void fuelVehicle() {
         fuelCar();
     }
+    // Homework 1
+    public void PaintCar(String color) {
+        System.out.println("Car is painted in " + color);
+    }
 }
+
+
+
